@@ -2,25 +2,25 @@
 
 ## Basic Commands
 ```bash
-git init               # Initialize a new Git repository
-git clone <repo_url>   # Clone an existing repository
-git status            # Check the status of changes
-git add <file>        # Stage a specific file
-git add .             # Stage all changes
-git commit -m "Message"  # Commit changes with a message
-git push origin main  # Push changes to remote repository
-git pull origin main  # Pull latest changes from remote
+git init                # Initialize a new Git repository
+git clone <repo_url>    # Clone an existing repository
+git status              # Check the status of changes
+git add <file>          # Stage a specific file
+git add .               # Stage all changes
+git commit -m "Message" # Commit changes with a message
+git push origin main    # Push changes to remote repository
+git pull origin main    # Pull latest changes from remote
 ```
 
 ## Branching
 ```bash
-git branch <branch-name>   # Create a new branch
-git branch               # List all branches
-git checkout <branch>    # Switch to a branch
-git switch <branch>      # Alternative to checkout
-git merge <branch>       # Merge a branch into current
-git branch -d <branch>   # Delete a branch (only if merged)
-git branch -D <branch>   # Force delete a branch
+git branch <branch-name>    # Create a new branch
+git branch                  # List all branches
+git checkout <branch>       # Switch to a branch
+git switch <branch>         # Alternative to checkout
+git merge <branch>          # Merge a branch into current
+git branch -d <branch>      # Delete a branch (only if merged)
+git branch -D <branch>      # Force delete a branch
 ```
 
 ## Undoing Changes
@@ -53,12 +53,12 @@ git show <commit>        # Show changes of a commit
 
 ## Remote Repositories
 ```bash
-git remote -v            # Show remote URLs
-git remote add origin <url>  # Add a new remote repository
-git push origin <branch>   # Push changes to remote branch
-git pull origin <branch>   # Fetch and merge latest changes
-git fetch                 # Download changes without merging
-git merge origin/main      # Merge remote changes into current branch
+git remote -v               # Show remote URLs
+git remote add origin <url> # Add a new remote repository
+git push origin <branch>    # Push changes to remote branch
+git pull origin <branch>    # Fetch and merge latest changes
+git fetch                   # Download changes without merging
+git merge origin/main       # Merge remote changes into current branch
 ```
 
 ### Pull vs Fetch vs Fork
@@ -96,8 +96,8 @@ git merge origin/main      # Merge remote changes into current branch
 
 ## Tags
 ```bash
-git tag                  # List all tags
-git tag <tag-name>       # Create a new tag
+git tag                     # List all tags
+git tag <tag-name>          # Create a new tag
 git tag -a <tag-name> -m "Tag message"  # Create annotated tag
 git push origin <tag-name>  # Push a tag to remote
 ```
@@ -113,10 +113,10 @@ git stash pop            # Apply and remove last stash
 
 ## Advanced Git Commands
 ```bash
-git cherry-pick <commit>   # Apply a commit from another branch
-git rebase <branch>        # Reapply commits on top of another branch
-git bisect start          # Start a binary search for bugs
-git reflog                # View history of HEAD movements
+git cherry-pick <commit>    # Apply a commit from another branch
+git rebase <branch>         # Reapply commits on top of another branch
+git bisect start            # Start a binary search for bugs
+git reflog                  # View history of HEAD movements
 ```
 
 ---
