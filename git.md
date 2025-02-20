@@ -2,14 +2,14 @@
 
 ## Basic Commands
 ```bash
-git init                # Initialize a new Git repository
-git clone <repo_url>    # Clone an existing repository
-git status              # Check the status of changes
-git add <file>          # Stage a specific file
-git add .               # Stage all changes
-git commit -m "Message" # Commit changes with a message
-git push origin main    # Push changes to remote repository
-git pull origin main    # Pull latest changes from remote
+git init                	# Initialize a new Git repository
+git clone <repo_url>    	# Clone an existing repository
+git status              	# Check the status of changes
+git add <file>          	# Stage a specific file
+git add .               	# Stage all changes
+git commit -m "Message" 	# Commit changes with a message
+git push origin main    	# Push changes to remote repository
+git pull origin main    	# Pull latest changes from remote
 ```
 
 ## Branching
